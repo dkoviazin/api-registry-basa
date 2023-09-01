@@ -1,0 +1,32 @@
+{
+  "name": "api-registry-basa",
+  "version": "1.0.0",
+  "description": "Api example to add billing receipts from file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkoviazin/api-registry-basa.git"
+  },
+  "keywords": [
+    "condo",
+    "api",
+    "registry",
+    "file"
+  ],
+  "author": "dkovyazin@doma.ai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkoviazin/api-registry-basa/issues"
+  },
+  "homepage": "https://github.com/dkoviazin/api-registry-basa#readme",
+  "dependencies": {
+    "big.js": "^6.2.1",
+    "condo-graphql-client": "^0.0.7",
+    "cross-fetch": "^4.0.0",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1"
+  }
+}
