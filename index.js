@@ -50,7 +50,7 @@ const uploadRegistryFileExample = async () => {
             accountNumber: '40703810270000003883', // Р/С
             format: DOMA_EXTENDED_FORMAT,
             period: '2023-07-01',
-            file: registryMiniApp.createUploadFile(createReadStream('./files/doma-detailed-3-services.xlsx')),
+            file: registryMiniApp.createUploadFile(createReadStream('./files/doma-detailed-fixed-services.xlsx')),
             status: REGISTRY_FILE_CREATE_STATUS,
         },
     })
